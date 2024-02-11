@@ -264,9 +264,32 @@
 
 			<h2 class="subHeading">Like what you see?</h2>
 			<h2>I'd love to hear from you!</h2>
+
+
 			<div class="first">
-			<div class="contactButton" id="contactButton" data-email="uhzc3wakh(at)mozmail(dot)com">CLICK HERE TO GET IN TOUCH!</div>
+			<form action="https://formspree.io/f/xayrowww" method="POST">
+                        <div class="row contact-row m-0">
+                            <!-- Name -->
+                            <div class="col-12 col-md-6 form-col name-col">
+                                <input type="name" class="form-control" id="formInputName" placeholder="Name">
+                            </div>
+                            <!-- Email -->
+                            <div class="col-12 col-md-6 form-col email-col">
+                                <input type="email" class="form-control" id="formInputEmail" placeholder="Email">
+                            </div>
+                            <!-- Message -->
+                            <div class="col form-col message-col">
+                                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="4"></textarea>
+                            </div>
+                            <!-- Send Button -->
+                            <div class="col-12 form-col text-center">
+                                <button type="submit" class="btn btn-lg btn-primary">Send</a>
+                            </div>
+                        </div>
+                    </form>
 			</div>
+
+
 			<div class="second">
 			<a class="linkedInButton" target="_blank" href="https://www.linkedin.com/in/matthew-j-brown/"><i class="fab fa-linkedin fa-3x" target="_blank"></i></a>
             <a class="twitterButton" target="_blank" href="https://twitter.com/MattBrownGeo"><i class="fa fa-twitter fa-3x"></i></a>
@@ -580,7 +603,7 @@
 	    expCounterElement.textContent = yearDifference;
 	  });
 	</script>
-	<script>
+<!-- 	<script>
 	document.addEventListener('DOMContentLoaded', function() {
 	  var contactButton = document.getElementById('contactButton');
 	  
@@ -603,7 +626,7 @@
 	    return encodedEmail.replace(/\(at\)/g, '@').replace(/\(dot\)/g, '.');
 	  }
 	});
-	</script>
+	</script> -->
 
 
 </body>
